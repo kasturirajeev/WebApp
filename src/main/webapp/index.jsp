@@ -12,7 +12,7 @@
            class="img-responsive center-block" style="width:250px"/>
       <h1 class="text-center" style="background-color:#FF0000;font-size:50px;">Now you are with Rajeev</h2>
       <title>The Jenkins build had the typical Maven build steps:</title>
-      <p>Source Code Management with a checkout from Git</p>
+      <p class="text-center"><b>Source Code Management with a checkout from Git</b></p>
       <p>A build trigger, which is triggered automatically from Git</p>
       <p>Maven build with the usual pom.xml and goals</p>
       <p>Post Build Findbugs analysis results</p>
