@@ -11,7 +11,15 @@
       <img src="http://www.learntek.org/wp-content/uploads/2017/08/jenkins_image.png" alt="Spidertocat"
            class="img-responsive center-block" style="width:250px"/>
       <h1 class="text-center" style="background-color:#FF0000;font-size:50px;">Now you are with Rajeev</h2>
-      <h2 class="text-center" style="background-color:#FF0000;font-size:50px;">DevOps Automation of Build and Deployment job is done and deployed a war file into Tomcat Server using Jenkins</h1>
+      <title>The Jenkins build had the typical Maven build steps:</title>
+      <p>Source Code Management with a checkout from Git</p>
+      <p>A build trigger, which is triggered automatically from Git</p>
+      <p>Maven build with the usual pom.xml and goals</p>
+      <p>Post Build Findbugs analysis results</p>
+      <p>A batch script that stops the DEV Tomcat server, deletes the WAR file, deletes the exploded WAR directory, and then restarts the Tomcat instance</p>
+      <p>A ‘Deploy war/ear to a container’ task to deploy to the DEV server</p>
+      <p>If the build is successful Ok, In case build is failure then receive an Email notification alerts to the development team</p>
+      <h2 class="text-center" style="background-color:#FF0000;font-size:50px;">DevOps Automation of Build and Deployment job is done and deployed a war file into Tomcat Server using Jenkins</h2>
   </div>
 </body>
 </html>
