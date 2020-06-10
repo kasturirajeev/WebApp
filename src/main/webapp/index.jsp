@@ -16,7 +16,7 @@
       <p class="text-center"><b>A build trigger, which is triggered automatically from Git</b></p>
       <p class="text-center"><b>Maven build with the usual pom.xml and goals</b></p>
       <p class="text-center"><b>Post Build Findbugs analysis results</b></p>
-      <p class="text-center"><b>A batch script that stops the DEV Tomcat server, <br>deletes the WAR file,deletes the exploded WAR directory, <br>and then restarts the Tomcat instance</b></p>
+      <p class="text-center"><b>A batch script that stops the DEV Tomcat server,deletes the WAR file,deletes the exploded WAR directory,and then restarts the Tomcat instance.</b></p>
       <p class="text-center"><b>A 'Deploy war/ear to a container' task to deploy to the DEV server</b></p>
       <p class="text-center"><b>If the build is successful Ok, In case build is failure then receive an Email notification alerts to the development team</b></p>
       <h2 class="text-center" style="background-color:#FF0000;font-size:50px;">DevOps Automation of Build and Deployment job is done and deployed a war file into Tomcat Server using Jenkins</h2>
