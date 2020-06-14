@@ -3,23 +3,23 @@ node {
       git url: 'https://github.com/kasturirajeev/webapp.git'
 }
       stage('Mvn install'){
-      def mvnHome = tool name: 'Maven3.5.0', type: 'maven'
+      def mvnHome = tool name: 'maven3.6.3', type: 'maven'
       def mvnCMD = "${mvnHome}/bin/mvn"
-      bat "${mvnCMD} clean install"
+      sh "${mvnCMD} clean install"
       }
       stage('Mvn Compile'){
-      def mvnHome = tool name: 'Maven3.5.0', type: 'maven'
+      def mvnHome = tool name: 'maven3.6.3', type: 'maven'
       def mvnCMD = "${mvnHome}/bin/mvn"
-      bat "${mvnCMD} clean compile"
+      sh "${mvnCMD} clean compile"
       }
       stage('Mvn Test'){
-      def mvnHome = tool name: 'Maven3.5.0', type: 'maven'
+      def mvnHome = tool name: 'maven3.6.3', type: 'maven'
       def mvnCMD = "${mvnHome}/bin/mvn"
-      bat "${mvnCMD} test"
+      sh "${mvnCMD} test"
       }
       stage('Mvn Package'){
-      def mvnHome = tool name: 'Maven3.5.0', type: 'maven'
+      def mvnHome = tool name: 'maven3.6.3', type: 'maven'
       def mvnCMD = "${mvnHome}/bin/mvn"
-      bat "${mvnCMD} clean package"
+      sh "${mvnCMD} clean package"
       }
 }
