@@ -22,4 +22,7 @@ node {
       def mvnCMD = "${mvnHome}/bin/mvn"
       sh "${mvnCMD} clean package"
       }
+      stage ('Mvn Deploy'){
+      sh "curl -v -u deployer:deployer -T /var/lib/jenkins/workspace/GitHub-Jenkins-Maven-Tomcat-Pipeline/target/mvn-hello-world.war 'http://52.172.4.141:8082/mvn-hello-world'"
+      }      
 }
