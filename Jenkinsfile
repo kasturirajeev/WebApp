@@ -22,3 +22,4 @@ node {
       def mvnCMD = "${mvnHome}/bin/mvn"
       bat "${mvnCMD} clean package"
       }
+}
